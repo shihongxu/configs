@@ -3,7 +3,7 @@ spring:
     name: eureka-peer
 
 server:
-  port: 10000
+  port: 20000
 
 eureka:
   instance:
@@ -17,4 +17,4 @@ eureka:
   server:
     wait-time-in-ms-when-sync-empty: 0
     enable-self-preservation: true
-    peer-eureka-nodes-update-interval-ms: 10000
+    peer-eureka-nodes-update-interval-ms: 20000
