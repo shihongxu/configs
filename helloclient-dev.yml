@@ -17,9 +17,3 @@ mybatis:
   mapper-locations: classpath:mapping/*Mapper.xml
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-
-##配置注册中心
-eureka:
-  client:
-    service-url:
-      defaultZone: http://127.0.0.1:10001/eureka/
